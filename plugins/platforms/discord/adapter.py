@@ -616,6 +616,9 @@ class DiscordAdapter(BasePlatformAdapter):
         # chunk only, default), "all" (reply-reference on every chunk).
         self._reply_to_mode: str = getattr(config, 'reply_to_mode', 'first') or 'first'
         self._slash_commands: bool = self.config.extra.get("slash_commands", True)
+        # Regex wake-word patterns ("ep", "ensoprime", ...) that satisfy
+        # require_mention in gated channels alongside native @mentions.
+        self._mention_patterns = self._compile_mention_patterns()
         # In-memory cache of the bot's last message ID per channel, used by
         # history backfill to skip the full scan on hot paths.  Falls back to
         # scanning channel.history() on cache miss (cold start / restart).
@@ -3610,6 +3613,55 @@ class DiscordAdapter(BasePlatformAdapter):
         from gateway.platforms.base import resolve_channel_prompt
         return resolve_channel_prompt(self.config.extra, channel_id, parent_id)
 
+    def _compile_mention_patterns(self) -> list:
+        """Compile optional regex wake-word patterns for channel triggers.
+
+        Lets the bot respond to plain-text aliases (e.g. "ep", "ensoprime") in
+        gated channels in addition to native Discord @mentions. Mirrors the
+        DingTalk/WhatsApp implementations.
+        """
+        patterns = self.config.extra.get("mention_patterns") if self.config.extra else None
+        if patterns is None:
+            raw = os.getenv("DISCORD_MENTION_PATTERNS", "").strip()
+            if raw:
+                try:
+                    loaded = json.loads(raw)
+                except Exception:
+                    loaded = [part.strip() for part in raw.splitlines() if part.strip()]
+                    if not loaded:
+                        loaded = [part.strip() for part in raw.split(",") if part.strip()]
+                patterns = loaded
+
+        if patterns is None:
+            return []
+        if isinstance(patterns, str):
+            patterns = [patterns]
+        if not isinstance(patterns, list):
+            logger.warning(
+                "[%s] discord mention_patterns must be a list or string; got %s",
+                self.name,
+                type(patterns).__name__,
+            )
+            return []
+
+        compiled = []
+        for pattern in patterns:
+            if not isinstance(pattern, str) or not pattern.strip():
+                continue
+            try:
+                compiled.append(re.compile(pattern, re.IGNORECASE))
+            except re.error as exc:
+                logger.warning("[%s] Invalid Discord mention pattern %r: %s", self.name, pattern, exc)
+        if compiled:
+            logger.info("[%s] Loaded %d Discord mention pattern(s)", self.name, len(compiled))
+        return compiled
+
+    def _message_matches_mention_patterns(self, text: str) -> bool:
+        """True if text matches any configured wake-word pattern."""
+        if not text or not self._mention_patterns:
+            return False
+        return any(pattern.search(text) for pattern in self._mention_patterns)
+
     def _discord_require_mention(self) -> bool:
         """Return whether Discord channel messages require a bot mention."""
         configured = self.config.extra.get("require_mention")
@@ -4576,7 +4628,11 @@ class DiscordAdapter(BasePlatformAdapter):
             )
 
             if require_mention and not is_free_channel and not in_bot_thread:
-                if self._client.user not in message.mentions and not mention_prefix:
+                if (
+                    self._client.user not in message.mentions
+                    and not mention_prefix
+                    and not self._message_matches_mention_patterns(raw_content)
+                ):
                     return
         # Auto-thread: when enabled, automatically create a thread for every
         # @mention in a text channel so each conversation is isolated (like Slack).
