@@ -735,6 +735,54 @@ class DiscordAdapter(BasePlatformAdapter):
 
         asyncio.create_task(_notify())
 
+    def _discord_mention_pattern_strings(self) -> List[str]:
+        """Return configured regex wake words for Discord mention gating."""
+        raw = self.config.extra.get("mention_patterns")
+        if raw is None:
+            raw = os.getenv("DISCORD_MENTION_PATTERNS", "")
+        if isinstance(raw, list):
+            return [str(part).strip() for part in raw if str(part).strip()]
+        if isinstance(raw, str):
+            s = raw.strip()
+            if not s:
+                return []
+            try:
+                parsed = json.loads(s)
+            except json.JSONDecodeError:
+                return [part.strip() for part in s.split(",") if part.strip()]
+            if isinstance(parsed, list):
+                return [str(part).strip() for part in parsed if str(part).strip()]
+            if parsed:
+                return [str(parsed).strip()]
+            return []
+        if raw:
+            return [str(raw).strip()]
+        return []
+
+    def _discord_alias_mention_match(self, *texts: str) -> Optional[re.Match]:
+        """Return the first configured alias match across raw/clean message text."""
+        for pattern_text in self._discord_mention_pattern_strings():
+            try:
+                pattern = re.compile(pattern_text, re.IGNORECASE)
+            except re.error as exc:
+                logger.warning("[%s] Invalid Discord mention pattern %r: %s", self.name, pattern_text, exc)
+                continue
+            for text in texts:
+                if not text:
+                    continue
+                match = pattern.search(text)
+                if match:
+                    return match
+        return None
+
+    @staticmethod
+    def _strip_discord_alias_mention(text: str, match: Optional[re.Match]) -> str:
+        """Remove one matched alias from the user-visible message text."""
+        if not text or not match:
+            return text
+        stripped = f"{text[:match.start()]}{text[match.end():]}".strip()
+        return re.sub(r"^\s*[,;:|\-–—]+\s*", "", stripped).strip()
+
     async def connect(self) -> bool:
         """Connect to Discord and start receiving events."""
         if not DISCORD_AVAILABLE:
@@ -4887,6 +4935,9 @@ class DiscordAdapter(BasePlatformAdapter):
         raw_content = message.content.strip()
         normalized_content = raw_content
         mention_prefix = False
+        clean_content = getattr(message, "clean_content", "") or ""
+        raw_alias_mention_match = None
+        alias_mention_match = None
 
         snapshot_attachments = []
         if hasattr(message, "message_snapshots") and message.message_snapshots:
@@ -4898,10 +4949,16 @@ class DiscordAdapter(BasePlatformAdapter):
             if snapshot_text_parts and not raw_content:
                 raw_content = "\n".join(snapshot_text_parts)
                 normalized_content = raw_content
+        raw_alias_mention_match = self._discord_alias_mention_match(raw_content)
+        alias_mention_match = raw_alias_mention_match or self._discord_alias_mention_match(clean_content)
         if self._client.user and self._client.user in message.mentions:
             mention_prefix = True
             normalized_content = normalized_content.replace(f"<@{self._client.user.id}>", "").strip()
             normalized_content = normalized_content.replace(f"<@!{self._client.user.id}>", "").strip()
+            message.content = normalized_content
+        elif alias_mention_match:
+            mention_prefix = True
+            normalized_content = self._strip_discord_alias_mention(normalized_content, raw_alias_mention_match)
             message.content = normalized_content
         if not isinstance(message.channel, discord.DMChannel):
             channel_ids = {str(message.channel.id)}
@@ -4951,7 +5008,7 @@ class DiscordAdapter(BasePlatformAdapter):
             )
 
             if require_mention and not is_free_channel and not in_bot_thread:
-                if self._client.user not in message.mentions and not mention_prefix:
+                if self._client.user not in message.mentions and not mention_prefix and not alias_mention_match:
                     return
         # Auto-thread: when enabled, automatically create a thread for every
         # @mention in a text channel so each conversation is isolated (like Slack).
@@ -6636,6 +6693,9 @@ def _apply_yaml_config(yaml_cfg: dict, discord_cfg: dict) -> dict | None:
         os.environ["DISCORD_REQUIRE_MENTION"] = str(discord_cfg["require_mention"]).lower()
     if "thread_require_mention" in discord_cfg and not os.getenv("DISCORD_THREAD_REQUIRE_MENTION"):
         os.environ["DISCORD_THREAD_REQUIRE_MENTION"] = str(discord_cfg["thread_require_mention"]).lower()
+    mp = discord_cfg.get("mention_patterns")
+    if mp is not None and not os.getenv("DISCORD_MENTION_PATTERNS"):
+        os.environ["DISCORD_MENTION_PATTERNS"] = json.dumps(mp) if isinstance(mp, list) else str(mp)
     platforms_cfg = yaml_cfg.get("platforms")
     platform_extra_cfg = {}
     if isinstance(platforms_cfg, dict):

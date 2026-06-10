@@ -348,6 +348,51 @@ async def test_discord_accepts_and_strips_bot_mentions_when_required(adapter, mo
 
 
 @pytest.mark.asyncio
+@pytest.mark.parametrize(
+    ("pattern", "content", "expected"),
+    [
+        (r"(?<![a-z0-9_./-])ep(?![a-z0-9_./-])", "ep check status", "check status"),
+        (r"(?<![a-z0-9_./-])ensoprime(?![a-z0-9_./-])", "ensoprime check status", "check status"),
+        (r"(?<![a-z0-9_./-])dot(?![a-z0-9_./-])", "dot, make a ticket", "make a ticket"),
+    ],
+)
+async def test_discord_mention_patterns_count_as_mentions(adapter, monkeypatch, pattern, content, expected):
+    monkeypatch.setenv("DISCORD_REQUIRE_MENTION", "true")
+    monkeypatch.setenv("DISCORD_AUTO_THREAD", "false")
+    monkeypatch.delenv("DISCORD_FREE_RESPONSE_CHANNELS", raising=False)
+    adapter.config.extra["mention_patterns"] = [pattern]
+
+    message = make_message(channel=FakeTextChannel(channel_id=321), content=content)
+
+    await adapter._handle_message(message)
+
+    adapter.handle_message.assert_awaited_once()
+    event = adapter.handle_message.await_args.args[0]
+    assert event.text == expected
+
+
+@pytest.mark.asyncio
+@pytest.mark.parametrize(
+    ("pattern", "content"),
+    [
+        (r"(?<![a-z0-9_./-])ep(?![a-z0-9_./-])", "scope this work"),
+        (r"(?<![a-z0-9_./-])dot(?![a-z0-9_./-])", "dotfun ticket"),
+    ],
+)
+async def test_discord_mention_patterns_preserve_regex_boundaries(adapter, monkeypatch, pattern, content):
+    monkeypatch.setenv("DISCORD_REQUIRE_MENTION", "true")
+    monkeypatch.setenv("DISCORD_AUTO_THREAD", "false")
+    monkeypatch.delenv("DISCORD_FREE_RESPONSE_CHANNELS", raising=False)
+    adapter.config.extra["mention_patterns"] = [pattern]
+
+    message = make_message(channel=FakeTextChannel(channel_id=321), content=content)
+
+    await adapter._handle_message(message)
+
+    adapter.handle_message.assert_not_awaited()
+
+
+@pytest.mark.asyncio
 async def test_discord_dms_ignore_mention_requirement(adapter, monkeypatch):
     monkeypatch.setenv("DISCORD_REQUIRE_MENTION", "true")
     monkeypatch.delenv("DISCORD_FREE_RESPONSE_CHANNELS", raising=False)
@@ -925,5 +970,4 @@ async def test_discord_auto_thread_skips_backfill(adapter, monkeypatch):
 
     adapter._auto_create_thread.assert_awaited_once()
     adapter._fetch_channel_context.assert_not_awaited()
-
 
