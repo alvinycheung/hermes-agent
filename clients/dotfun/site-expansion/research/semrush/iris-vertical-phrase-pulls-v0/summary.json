@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "home-services",
+    "query": "ai receptionist for home services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for home services;10;0;0"
+  },
+  {
+    "slug": "home-services",
+    "query": "answering service for home services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "answering service for home services;40;0;0"
+  },
+  {
+    "slug": "home-services",
+    "query": "ai receptionist for hvac",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for hvac;20;16.69;0.75"
+  },
+  {
+    "slug": "home-services",
+    "query": "ai answering service for plumbing",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "slug": "legal-services",
+    "query": "ai receptionist for law firms",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for law firms;90;15.13;0.6"
+  },
+  {
+    "slug": "legal-services",
+    "query": "legal answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "legal answering service;1900;117.29;0.32"
+  },
+  {
+    "slug": "legal-services",
+    "query": "law firm intake software",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "law firm intake software;210;13.42;0.21"
+  },
+  {
+    "slug": "property-management",
+    "query": "ai receptionist for property management",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for property management;30;24.92;0.83"
+  },
+  {
+    "slug": "property-management",
+    "query": "property management answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "property management answering service;2400;38.62;0.08"
+  },
+  {
+    "slug": "property-management",
+    "query": "ai leasing assistant",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai leasing assistant;320;13.55;0.58"
+  },
+  {
+    "slug": "real-estate",
+    "query": "ai receptionist for real estate",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for real estate;40;12.88;0.67"
+  },
+  {
+    "slug": "real-estate",
+    "query": "real estate answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "real estate answering service;1300;38.89;0.15"
+  },
+  {
+    "slug": "therapy",
+    "query": "ai receptionist for therapy practice",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "slug": "therapy",
+    "query": "therapy answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "therapy answering service;0;0;0"
+  },
+  {
+    "slug": "therapy",
+    "query": "mental health answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "mental health answering service;140;0;0"
+  },
+  {
+    "slug": "dental",
+    "query": "ai receptionist for dental office",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for dental office;30;28.36;0.56"
+  },
+  {
+    "slug": "dental",
+    "query": "dental answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "dental answering service;720;51.8;0.34"
+  },
+  {
+    "slug": "medical",
+    "query": "medical answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "medical answering service;2900;8.12;0.33"
+  },
+  {
+    "slug": "medical",
+    "query": "ai receptionist for medical office",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for medical office;70;18.56;0.81"
+  },
+  {
+    "slug": "med-spas",
+    "query": "med spa answering service",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "slug": "med-spas",
+    "query": "ai receptionist for med spa",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "ai receptionist for med spa;10;0;0"
+  },
+  {
+    "slug": "fitness",
+    "query": "gym answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "gym answering service;20;0;0"
+  },
+  {
+    "slug": "fitness",
+    "query": "ai receptionist for fitness studio",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "slug": "automotive",
+    "query": "auto repair answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "auto repair answering service;0;0;0"
+  },
+  {
+    "slug": "accounting-firms",
+    "query": "accounting firm answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "accounting firm answering service;0;0;0"
+  },
+  {
+    "slug": "restaurants",
+    "query": "restaurant answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "restaurant answering service;260;52.12;0.25"
+  },
+  {
+    "slug": "salons",
+    "query": "salon answering service",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "salon answering service;170;0;0.33"
+  },
+  {
+    "slug": "multifamily",
+    "query": "multifamily leasing ai",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "slug": "multifamily",
+    "query": "apartment leasing ai assistant",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  }
+]

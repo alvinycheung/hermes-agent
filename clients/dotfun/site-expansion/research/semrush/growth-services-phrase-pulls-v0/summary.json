@@ -1,0 +1,177 @@
+[
+  {
+    "pillar": "feel-good",
+    "query": "digital marketing services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "digital marketing services;40500;8.39;0.08"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "digital marketing agency",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "digital marketing agency;74000;8.03;0.07"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "growth marketing agency",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "growth marketing agency;2900;6.09;0.01"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "growth marketing services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "growth marketing services;880;5.39;0.07"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "seo services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "seo services;60500;13.06;0.04"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "aeo services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "aeo services;480;9.06;0.24"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "generative engine optimization services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "generative engine optimization services;1000;13.49;0.1"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "paid media agency",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "paid media agency;2900;36.16;0.11"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "paid media services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "paid media services;2400;0;0.71"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "content strategy services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "content strategy services;1900;0;0.06"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "content marketing strategy services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "content marketing strategy services;880;0;0"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "fractional cmo services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "fractional cmo services;1900;11.76;0.2"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "fractional growth marketing",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "fractional growth marketing;40;0;0"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "gtm strategy consulting",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "gtm strategy consulting;70;13.44;0.16"
+  },
+  {
+    "pillar": "feel-good",
+    "query": "analytics reporting services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "analytics reporting services;20;0;0.33"
+  },
+  {
+    "pillar": "look-good",
+    "query": "web design services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "web design services;18100;10.2;0.07"
+  },
+  {
+    "pillar": "look-good",
+    "query": "web design agency",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "web design agency;27100;8.49;0.18"
+  },
+  {
+    "pillar": "look-good",
+    "query": "web development services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "web development services;14800;11.15;0.15"
+  },
+  {
+    "pillar": "look-good",
+    "query": "branding design services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "branding design services;590;7.12;0.14"
+  },
+  {
+    "pillar": "look-good",
+    "query": "brand identity design services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "brand identity design services;1600;9.5;0.04"
+  },
+  {
+    "pillar": "look-good",
+    "query": "video production services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "video production services;8100;6.65;0.03"
+  },
+  {
+    "pillar": "look-good",
+    "query": "video production company",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "video production company;9900;6.39;0.12"
+  },
+  {
+    "pillar": "look-good",
+    "query": "graphic design services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "graphic design services;8100;5.45;0.06"
+  },
+  {
+    "pillar": "look-good",
+    "query": "ad creative design services",
+    "status": "error",
+    "line_count": 1,
+    "first_data_line": ""
+  },
+  {
+    "pillar": "look-good",
+    "query": "creative testing services",
+    "status": "ok",
+    "line_count": 2,
+    "first_data_line": "creative testing services;50;0;0.33"
+  }
+]

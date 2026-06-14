@@ -1,0 +1,22 @@
+wing,page_candidate,page_type,working_url,url_role,source_basis,priority_hypothesis,notes
+parent-brand,dotfun parent homepage,overview,/,Parent routing page,Confirmed parent brand; sample homepage,launch,Routes into three wings; avoid making Iris parent brand
+iris-platform,Iris Platform,platform overview,/iris/,Software product overview,Positioning doc + current crawl,launch,Canonicalize /iris/product decision needed
+iris-platform,AI CRM,feature,/iris/features/ai-crm/,Product feature page,Positioning doc features list,launch,Software feature; compare against AI CRM SERPs
+iris-platform,AI Receptionist,feature,/iris/features/ai-receptionist/,Product feature page,Current crawl + positioning doc,launch,Current primary wedge
+iris-platform,AI SMS,feature,/iris/features/ai-sms/,Product feature page,Positioning doc features list,launch,May overlap with voice/SMS agents under AI Solutions
+iris-platform,AI Web Chat,feature,/iris/features/ai-web-chat/,Product feature page,Positioning doc features list,launch,Demand capture feature
+iris-platform,Dashboards and Analytics,feature,/iris/features/dashboards-analytics/,Product feature page,Positioning doc features list,phase-two,Cannibalization with AI Solutions custom dashboards
+dotfun-ai-solutions,dotfun AI Solutions,overview,/ai-solutions/,AI solutions overview,Confirmed naming + positioning doc,launch,"Custom implementation, not software feature"
+dotfun-ai-solutions,AI Agents,solution,/ai-solutions/solutions/ai-agents/,Custom AI solution page,Positioning doc solution list,launch,Differentiate custom build from Iris product agents
+dotfun-ai-solutions,AI Audit,solution,/ai-solutions/solutions/ai-audit/,AI solution page,Positioning doc solution list,launch,Good discovery/conversion page
+dotfun-ai-solutions,Business Automation,solution,/ai-solutions/solutions/business-automation/,AI solution page,Positioning doc solution list,launch,Broad page likely needs SERP refinement
+dotfun-ai-solutions,RAG / ETL,solution,/ai-solutions/solutions/rag-etl/,Technical AI solution page,Positioning doc solution list,phase-two,May need less jargon in public nav
+dotfun-ai-solutions,Systems Integration,solution,/ai-solutions/solutions/systems-integration/,AI solution page,Positioning doc solution list,launch,Good connective page
+dotfun-growth-services,dotfun Growth Services,overview,/growth-services/,Services overview,Confirmed naming + current crawl,launch,Replaces or reframes current non-Iris services architecture
+dotfun-growth-services,Growth Strategy,solution,/growth-services/solutions/growth-strategy/,Outcome solution page,Positioning doc + current services,launch,Senior/operator-led positioning
+dotfun-growth-services,Demand Generation,solution,/growth-services/solutions/demand-generation/,Outcome solution page,Positioning doc + blog crawl,launch,Research needed
+dotfun-growth-services,SEO/AEO,service,/growth-services/services/seo-aeo/,Service page,Positioning doc + current blog library,launch,High strategic relevance
+dotfun-growth-services,Paid Media,service,/growth-services/services/paid-media/,Service page,Positioning doc service list,launch,Paid/social distinction research needed
+dotfun-growth-services,Web Design,service,/growth-services/services/web-design/,Service page,Positioning doc service list + current site,launch,May inherit Look Good content
+dotfun-growth-services,Branding Design,service,/growth-services/services/branding-design/,Service page,Current crawl + positioning doc,launch,Current page exists under /solutions/look-good/branding-design
+dotfun-growth-services,Marketing Automation,service,/growth-services/services/marketing-automation/,Service page,Positioning doc service list,phase-two,Overlap with AI Solutions and Iris

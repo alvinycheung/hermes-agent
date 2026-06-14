@@ -1,0 +1,2 @@
+source_url,target_url,decision_type,status,reason,implementation_note
+/iris/product,/iris/features/,redirect-or-canonical,recommended,"Per Perl decision 2026-06-07: /iris/product should map to /iris/features/. /iris/features/ is the feature overview URL, not a separate product page.",Prefer 301 redirect if replacing route; canonical only if old URL must remain temporarily for platform/CMS reasons.

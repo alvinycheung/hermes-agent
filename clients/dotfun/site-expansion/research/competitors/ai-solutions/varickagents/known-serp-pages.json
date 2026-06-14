@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://varickagents.com/education",
+    "error": "<HTTPError 308: 'Permanent Redirect'>"
+  },
+  {
+    "url": "https://varickagents.com/government",
+    "error": "<HTTPError 308: 'Permanent Redirect'>"
+  },
+  {
+    "url": "https://www.varickagents.com/about-us",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "url": "https://demo.varickagents.com/",
+    "final": "https://demo.varickagents.com/",
+    "status": 200,
+    "title": "Varick Agents \u2014 Demo Suite",
+    "description": "Function-specific demos showing how Varick agents take over Finance, Sales, Operations, Engineering, and Marketing end-to-end.",
+    "h1": [
+      "Five Departments, Rebuilt Around AI."
+    ],
+    "h2": [],
+    "h3": [],
+    "text_sample": "Varick Agents \u2014 Demo Suite v Varick Agents Demo Suite \u00b7 Live AI Operations Infrastructure Five Departments, Rebuilt Around AI. Each demo walks through how Varick agents take over a function end-to-end \u2014 the audit, the agent build, the human-in-the-loop workflows, and the operating economics that follow. Select a function 01 / Finance CFO Demo Invoice processing, exception resolution, month-end close. 12d \u2192 5d close 98.4% accuracy 02 / Sales CRO Demo Deal desk, CRM hygiene, forecast roll-ups. 5d \u2192 4hr deal desk 95% CRM accuracy 03 / Operations Ops Demo Contract intake, IT helpdesk, vendor onboarding. 9d \u2192 1d intake 65% auto-resolve 04 / Engineering Eng Demo PR review, code search, ticket triage, onboarding. 14h \u2192 2h PR review +35% velocity 05 / Marketing CMO Demo Campaign launches, audience activation, signal QA. 9d \u2192 3d launch +32pp signal coverage"
+  }
+]

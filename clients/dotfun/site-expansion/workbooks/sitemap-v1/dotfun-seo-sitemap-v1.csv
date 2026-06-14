@@ -1,0 +1,224 @@
+Section,Page Name,Intent,Content Type,URL Slug,Main Keyword,MSV (US),Est. Competition,Related Keywords / Group,Questions to Answer / FAQ Seeds,Priority,Status,Notes,SEO Source
+TL · Core Navigation,Home,Navigational / Brand,Home Page,/,dotfun,,,,"What should users know about Home?
+Who is this page for?
+What should users do next?",🔴 P1,Launch,Top-level entry point; route into the three wings quickly.,Not pulled — brand/nav term or placeholder
+TL · Core Navigation,A · Iris,Commercial / Product,Wing Hub,/iris/,AI receptionist,3600,0.77,ai receptionist for small business (480); ai phone receptionist (390); ai virtual receptionist (390); ai receptionist solution (260); best ai receptionist (260),"What is Iris?
+How does Iris combine AI receptionist, CRM, SMS, voice, calendar, and web chat?
+Who is Iris built for?
+When should a business use Iris vs custom AI Solutions?",🔴 P1,Launch,Software wing; SMB-leaning productized SaaS.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+TL · Core Navigation,B · AI Solutions,Commercial / Services,Wing Hub,/ai-solutions/,custom AI agent development,390,0.13,custom ai agent development services (170); custom agentic ai development services (70); ai agent for custom development (50); custom ai agent development company (50); custom ai agent development costs (30); custom ai agent development services for enterprises (30); ai agent development for customer service automation (20); custom ai agent development companies (20),"What is custom AI agent development?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🔴 P1,Launch,"Custom AI builds, workflow automation, implementation, systems integration.","SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+TL · Core Navigation,C · Growth Services,Commercial / Services,Wing Hub,/growth-services/,digital marketing services,40500,0.08,digital marketing service (5400); digital marketing agency services (3600); digital marketing services near me (3600); full service digital marketing agency (3600); digital marketing services for small business (2400); b2b digital marketing services (1900); digital marketing consulting services (1600); digital marketing for home services (1300),"What are dotfun Growth Services?
+What is the difference between Feel Good, Look Good, and Run Good?
+Why does Run Good route to AI Solutions?
+Which Growth Services should a business start with?",🔴 P1,Launch,Current dotfun services story: Feel Good + Look Good; Run Good routes to AI Solutions.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+TL · Core Navigation,Case Studies / Work,Proof / Consideration,CMS Collection,/work/,dotfun case studies,,,,"What should users know about Case Studies / Work?
+Who is this page for?
+What should users do next?",🔴 P1,Launch,Whole-company proof; case studies may skew mid-market while Iris pages lean SMB.,Not pulled — brand/nav term or placeholder
+TL · Core Navigation,About,Trust / Brand,Company Page,/about/,dotfun,,,,"What should users know about About?
+Who is this page for?
+What should users do next?",🔴 P1,Launch,"Company story, team, philosophy.",Not pulled — brand/nav term or placeholder
+TL · Core Navigation,Contact / Get Started,Conversion,Conversion Page,/contact/,contact dotfun,,,,"What should users know about Contact / Get Started?
+Who is this page for?
+What should users do next?",🔴 P1,Launch,Primary conversion route from all three wings.,Not pulled — brand/nav term or placeholder
+A · Iris Platform,Iris Overview,Commercial / Product,Platform Overview,/iris/,AI receptionist,3600,0.77,ai receptionist for small business (480); ai phone receptionist (390); ai virtual receptionist (390); ai receptionist solution (260); best ai receptionist (260),"What is Iris?
+How does Iris combine AI receptionist, CRM, SMS, voice, calendar, and web chat?
+Who is Iris built for?
+When should a business use Iris vs custom AI Solutions?",🔴 P1,Launch,Parent product hub; route to features and verticals.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,Features Overview,Navigational / Commercial,Feature Overview,/iris/features/,AI receptionist features,10,0.0,ai virtual receptionist with top lead qualification features (170); ai virtual receptionist top lead qualification features (110); ai virtual receptionist lead qualification features (50); best ai receptionist systems call routing features (40); key features to compare ai receptionist providers (40); what are the key features of smith.ai's virtual receptionist services (30); what are the main features of smith.ai's virtual receptionist service (30); eaglesoft ai features receptionist (20),"What is AI receptionist features?
+How does Features Overview work in Iris?
+What tasks can Features Overview automate?
+How does Features Overview connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is Features Overview best for?",🔴 P1,Launch,Confirmed replacement target for /iris/product.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI CRM,Commercial / Product,Feature Page,/iris/features/ai-crm/,AI CRM,2400,0.55,ai in crm (720); ai powered crm (720); crm ai (720); ai crm software (590); ai powered crm platform (590); best ai crm (480); crm with ai (480); ai and crm (390),"What is AI CRM?
+How does AI CRM work in Iris?
+What tasks can AI CRM automate?
+How does AI CRM connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI CRM best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI Receptionist,Commercial / Product,Feature Page,/iris/features/ai-receptionist/,AI receptionist,3600,0.77,ai receptionist for small business (480); ai phone receptionist (390); ai virtual receptionist (390); ai receptionist solution (260); best ai receptionist (260),"What is AI receptionist?
+How does AI Receptionist work in Iris?
+What tasks can AI Receptionist automate?
+How does AI Receptionist connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI Receptionist best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI Calendar,Commercial / Product,Feature Page,/iris/features/ai-calendar/,AI appointment scheduling,390,0.7,ai appointment scheduler (90); best ai virtual receptionist for appointment scheduling 2025 (90); ai appointment scheduling software (70); best ai chatbot platforms for automating appointment scheduling in healthcare (70); ai for patient scheduling and appointment reminders (50),"What is AI appointment scheduling?
+How does AI Calendar work in Iris?
+What tasks can AI Calendar automate?
+How does AI Calendar connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI Calendar best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI SMS,Commercial / Product,Feature Page,/iris/features/ai-sms/,AI SMS agent,50,0.76,sms ai agent (30); best ai voice agent for sms and email (20); ai agent for sms (10); ai customer service agents that work with sms (10); ai voice agents lead-nurture sequences voice email sms (10); ai agent on sms (0); ai agents for sms (0); ai customer service agents sms integration (0),"What is AI SMS agent?
+How does AI SMS work in Iris?
+What tasks can AI SMS automate?
+How does AI SMS connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI SMS best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI Voice,Commercial / Product,Feature Page,/iris/features/ai-voice/,AI phone receptionist,390,0.7,best ai phone receptionist (30); ai phone receptionist for business (20); ai phone receptionist app (10); ai phone receptionist for small business (10); ai phone receptionists for small business (10); ai receptionist phone (10),"What is AI phone receptionist?
+How does AI Voice work in Iris?
+What tasks can AI Voice automate?
+How does AI Voice connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI Voice best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ AI Web Chat,Commercial / Product,Feature Page,/iris/features/ai-web-chat/,AI web chat,90,0.42,ai chat web (70); web ai chat (70); chat & ask ai web (40); chat and ask ai web (30); ai chat web app (20); chat ai web (20),"What is AI web chat?
+How does AI Web Chat work in Iris?
+What tasks can AI Web Chat automate?
+How does AI Web Chat connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is AI Web Chat best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Dashboards & Analytics,Commercial / Product,Feature Page,/iris/features/dashboards-analytics/,CRM analytics dashboard,50,0.36,zoho crm free reporting features dashboard analytics (90); best crm platforms with comprehensive analytics dashboards 2025 2026 (30); crm analytics dashboards (30); crm analytics dashboard examples (20); crm analytics dashboard navigation (20); crm analytics dashboard salesforce (20); enterprise crm customizable analytics dashboards (20); enterprise crm systems offer customizable analytics dashboards (20),"What is CRM analytics dashboard?
+How does Dashboards & Analytics work in Iris?
+What tasks can Dashboards & Analytics automate?
+How does Dashboards & Analytics connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is Dashboards & Analytics best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Outbound,Commercial / Product,Feature Page,/iris/features/outbound/,AI outbound calling,390,0.6,can ai agents make outbound calls (390); can ai agents make outbound calls illegal (390); ai outbound sales calls (170); ai outbound call (140); ai outbound calling agents (140); what voice ai works best for outbound sales calls (140); best voice ai api for outbound and inbound calling (110); best voice ai for outbound sales calls 2025 (110),"What is AI outbound calling?
+How does Outbound work in Iris?
+What tasks can Outbound automate?
+How does Outbound connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is Outbound best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Web Forms,Commercial / Product,Feature Page,/iris/features/web-forms/,AI web forms,0,0.2,ai web form generator (10); web forms ai (10); ai call bot for web form leads (0); ai plugins that auto-complete sentences in web forms (0); ai powered web form data validation product (0); ai tool auto-qualify inbound leads web forms (0); formas creativas de integrar ai en diseño web (0); web form elements ai (0),"What is AI web forms?
+How does Web Forms work in Iris?
+What tasks can Web Forms automate?
+How does Web Forms connect to Iris CRM, SMS, voice, calendar, and web chat?
+Who is Web Forms best for?",🔴 P1,Launch,Confirmed current Iris feature.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,Solutions Overview,Navigational / Commercial,Solutions Overview,/iris/solutions/,AI receptionist for small business,480,0.84,best ai receptionist for small business (70); affordable ai receptionist software for small businesses. (50); affordable multilingual ai receptionist options for small businesses. (40); which ai virtual receptionist is best for small businesses (30); affordable ai receptionist software for small businesses 2025 (20); best ai receptionist for small business 2025 (20); 24/7 voice ai receptionist pricing for small businesses (10); affordable multilingual ai receptionist options for small businesses 2025 (10),"What is the best AI receptionist setup for solutions overview?
+How can Iris help solutions overview capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for solutions overview?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🔴 P1,Launch,Vertical entry point; prioritize based on My AI Front Desk rankings/traffic.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Property Management,Commercial / Vertical,Vertical Solution Page,/iris/solutions/property-management/,property management answering service,2400,0.08,answering service for property management companies (590); after hours answering service property management (390); answering service property management (390); answering service for property management (320); property management call answering service (320); best property management answering service (140); property management answering services (140); residential property management answering service (140),"What is the best AI receptionist setup for property management?
+How can Iris help property management capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for property management?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🔴 P1,Launch,Fold residential property management into this page for now.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Home Services,Commercial / Vertical,Vertical Solution Page,/iris/solutions/home-services/,answering service for home services,40,0.0,answering service for funeral homes (110); affordable answering services for funeral homes (30); answering service for care homes (30); answering service for funeral homes ma (30); answering service for funeral homes near california (30); answering service for funeral homes near texas (30); answering service for home health (30); answering service for home inspectors (30),"What is the best AI receptionist setup for home services?
+How can Iris help home services capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for home services?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🔴 P1,Launch,"Mention HVAC, plumbing, emergency calls, appointment booking; no subvertical pages yet.","SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Legal Services,Commercial / Vertical,Vertical Solution Page,/iris/solutions/legal-services/,legal answering service,1900,0.32,answering service with legal intake (480); legal answering services (480); legal intake answering service (390); best legal answering service (320); legal phone answering service (320); answering service legal (260); legal answering service cost (260); legal call answering service (260),"What is the best AI receptionist setup for legal services?
+How can Iris help legal services capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for legal services?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🔴 P1,Launch,Position as AI receptionist + intake CRM for legal services.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Therapy Practices,Commercial / Vertical,Vertical Solution Page,/iris/solutions/therapy/,mental health answering service,140,0.0,mental health answering service pricing per month (110); answering services for mental health practices (50); mental health answering service pricing per month 1500 (50); answering service for mental health professionals (40); mental health practice answering service pricing per month (40); mental health answering service joke (20); mental health practice answering service cost per month (20); mental health answering services (10),"What is the best AI receptionist setup for therapy practices?
+How can Iris help therapy practices capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for therapy practices?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🟠 P2,Launch Candidate,Strong My AI Front Desk evidence; needs Iris workflow/proof validation before launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,AI Solutions Overview,Commercial / Services,Wing Hub,/ai-solutions/,custom AI agent development,390,0.13,custom ai agent development services (170); custom agentic ai development services (70); ai agent for custom development (50); custom ai agent development company (50); custom ai agent development costs (30); custom ai agent development services for enterprises (30); ai agent development for customer service automation (20); custom ai agent development companies (20),"What is custom AI agent development?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🔴 P1,Launch,Run Good cards route here.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,    └ Custom AI Agent Development,Commercial,Solution Page,/ai-solutions/solutions/custom-ai-agent-development/,custom AI agent development,390,0.13,custom ai agent development services (170); custom agentic ai development services (70); ai agent for custom development (50); custom ai agent development company (50); custom ai agent development costs (30); custom ai agent development services for enterprises (30); ai agent development for customer service automation (20); custom ai agent development companies (20),"What is custom AI agent development?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🔴 P1,Launch,Strongest AI Solutions commercial page; keep custom/build/implementation language explicit.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,    └ AI Workflow Automation,Commercial,Solution Page,/ai-solutions/solutions/ai-workflow-automation/,AI workflow automation,2900,0.57,ai lead generation automation painting trade business workflow (720); ai workflow automation tools (590); n8n ai automation workflows: 2000 (590); ai for workflow automation (480); 8n ai automation workflows (390); ai automation workflow (390); best ai workflow automation tool (390); what are the best ai workflow automation tools (390),"What is AI workflow automation?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🔴 P1,Launch,Accessible buyer-intent framing for operational workflow automation.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,    └ AI Systems Integration,Commercial,Solution Page,/ai-solutions/solutions/ai-systems-integration/,AI systems integration,20,0.33,retail ai vision systems integration (1300); integrated eligibility systems ai (880); ai systems integrator niche market underserved high value clients (590); bigbear.ai integrates its ai into c speed radar systems (480); integration of ifm photoelectric sensors with ai systems (110); ai integration consulting for enterprise systems (90); how are ai dash cams integrated into construction technology systems (90); advantages of ai integration in hotel booking systems (70),"What is AI systems integration?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🟠 P2,Launch Candidate,Good offer fit; weaker direct SEMrush evidence. Review for launch vs hub section.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,    └ AI Audit / Opportunity Assessment,Commercial,Solution Page,/ai-solutions/solutions/ai-audit/,AI audit,880,0.59,ai-sbom: supply-chain-aware reliability auditing for multimodal ai systems (1900); ai governance auditing (1300); coso audit ready guidance generative ai 2026 (1300); deterministic replay ai agents immutable audit logs (1300); validated auditable explainable secure ai pharmacovigilance workflows (1000); lava ai audit reviews (590); ai agent audit log best practices deterministic replay (480); ai governance auditing medium (480),"What is AI audit?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🟠 P2,Launch Candidate,Launch only if it maps to a real sales motion.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+B · AI Solutions,    └ Custom Iris Builds,Commercial,Solution Page,/ai-solutions/solutions/custom-iris-builds/,custom AI agent development,390,0.13,custom ai agent development services (170); custom agentic ai development services (70); ai agent for custom development (50); custom ai agent development company (50); custom ai agent development costs (30); custom ai agent development services for enterprises (30); ai agent development for customer service automation (20); custom ai agent development companies (20),"What is custom AI agent development?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🟠 P2,Launch Candidate,Strategically useful; likely section/bridge unless current sales motion supports page.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,Growth Services Overview,Commercial / Services,Wing Hub,/growth-services/,digital marketing services,40500,0.08,digital marketing service (5400); digital marketing agency services (3600); digital marketing services near me (3600); full service digital marketing agency (3600); digital marketing services for small business (2400); b2b digital marketing services (1900); digital marketing consulting services (1600); digital marketing for home services (1300),"What are dotfun Growth Services?
+What is the difference between Feel Good, Look Good, and Run Good?
+Why does Run Good route to AI Solutions?
+Which Growth Services should a business start with?",🔴 P1,Launch,Top-level wing hub for Feel Good + Look Good. Run Good card routes to AI Solutions.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Feel Good,Navigational / Commercial,Pillar Section or Page,/growth-services/feel-good/,digital marketing services,40500,0.08,digital marketing service (5400); digital marketing agency services (3600); digital marketing services near me (3600); full service digital marketing agency (3600); digital marketing services for small business (2400); b2b digital marketing services (1900); digital marketing consulting services (1600); digital marketing for home services (1300),"What are digital marketing services?
+What is included in dotfun Feel Good?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🔴 P1,Launch,Marketing/growth pillar; can be a section or lightweight pillar page.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Digital Marketing,Commercial,Service Page,/growth-services/feel-good/digital-marketing/,digital marketing services,40500,0.08,digital marketing service (5400); digital marketing agency services (3600); digital marketing services near me (3600); full service digital marketing agency (3600); digital marketing services for small business (2400); b2b digital marketing services (1900); digital marketing consulting services (1600); digital marketing for home services (1300),"What are digital marketing services?
+What is included in dotfun Digital Marketing?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🔴 P1,Launch,Umbrella Feel Good commercial page.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ SEO / AEO,Commercial,Service Page,/growth-services/feel-good/seo-aeo/,SEO services,60500,0.04,and seo services (22200); local seo services (22200); services for seo (14800); seo service (12100); seo services near me (12100); professional seo services (9900); ecommerce seo services (8100); local seo services by garage2global (8100),"What are SEO services?
+What is included in dotfun SEO / AEO?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🔴 P1,Launch,"Search, answer-engine, and generative discovery services.","SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Growth Marketing,Commercial,Service Page,/growth-services/feel-good/growth-marketing/,growth marketing agency,2900,0.01,growth marketing agencies (590); nashville growth marketing agency (480); renovatly growth business model vc pe marketing agency (480); b2b growth marketing agency (320); digital marketing agency services small business growth (320); growth marketing agency for startups (260); agence growth marketing (210); digital marketing agency saas france excluding growth room (210),"What are growth marketing agency?
+What is included in dotfun Growth Marketing?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🟠 P2,Launch Candidate,Potential standalone; may overlap with Digital Marketing.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Paid Media,Commercial,Service Page,/growth-services/feel-good/paid-media/,paid media services,2400,0.71,paid social media services (480); paid owned media management services (260); paid social media advertising services (260); paid social media marketing services (260); paid media marketing services (140); paid media management services (110); paid media advertising services (70); b2b paid media services (50),"What are paid media services?
+What is included in dotfun Paid Media?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🟠 P2,Launch Candidate,Good standalone candidate if paid acquisition is launch-visible.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Look Good,Navigational / Commercial,Pillar Section or Page,/growth-services/look-good/,web design services,18100,0.07,web design and services (5400); web design service (3600); custom web design services (2400); responsive web design services (2400); web design services for small business (2400); ecommerce web design services (1900); web design and development services (1900); web design and seo services (1900),"What are web design services?
+What is included in dotfun Look Good?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🔴 P1,Launch,Design/creative/web pillar; can be a section or lightweight pillar page.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Web Design,Commercial,Service Page,/growth-services/look-good/web-design/,web design services,18100,0.07,web design and services (5400); web design service (3600); custom web design services (2400); responsive web design services (2400); web design services for small business (2400); ecommerce web design services (1900); web design and development services (1900); web design and seo services (1900),"What are web design services?
+What is included in dotfun Web Design?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🔴 P1,Launch,Primary Look Good commercial page.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Web Development,Commercial,Service Page,/growth-services/look-good/web-development/,web development services,14800,0.15,custom web development services (3600); web app development services (2900); web application development services (2900); web design and development services (1900); web development service (1900); ecommerce web development services (1600); custom web application development services (1300); custom web app development services (1000),"What are web development services?
+What is included in dotfun Web Development?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🟠 P2,Launch Candidate,Review as standalone vs paired with Web Design.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,        └ Video Production,Commercial,Service Page,/growth-services/look-good/video-production/,video production services,8100,0.03,video production services near me (1900); corporate video production services (1600); production services video (1600); video production service (1600); services video production (1300); professional video production services (1000); commercial video production services (880); best ugc video creation services for product unboxings (590),"What are video production services?
+What is included in dotfun Video Production?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🟠 P2,Launch Candidate,Good candidate if video is a strong current service line.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Run Good,Navigational Route,Navigation Card / Route,/ai-solutions/,custom AI agent development,390,0.13,custom ai agent development services (170); custom agentic ai development services (70); ai agent for custom development (50); custom ai agent development company (50); custom ai agent development costs (30); custom ai agent development services for enterprises (30); ai agent development for customer service automation (20); custom ai agent development companies (20),"What is custom AI agent development?
+What business workflows are good candidates for custom AI?
+How long does a custom AI solution take to build?
+What systems can dotfun integrate AI with?
+When should a company choose custom AI Solutions instead of Iris?",🔴 P1,Route,No Growth child pages; clicking Run Good routes to AI Solutions.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Medical Practices,Commercial / Consideration,Phase Two Candidate,/iris/solutions/medical/,medical answering service,2900,0.33,medical answering services (2900); after hours answering services for medical offices (1000); medical office answering service (880); after hours medical answering service (480); answering service for medical office (480); automated medical answering services (480); best medical answering service (480); medical after hours answering service (480),"What is the best AI receptionist setup for medical practices?
+How can Iris help medical practices capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for medical practices?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Small Business,Commercial / Consideration,Phase Two Candidate,/iris/solutions/small-business/,AI receptionist for small business,480,0.84,best ai receptionist for small business (70); affordable ai receptionist software for small businesses. (50); affordable multilingual ai receptionist options for small businesses. (40); which ai virtual receptionist is best for small businesses (30); affordable ai receptionist software for small businesses 2025 (20); best ai receptionist for small business 2025 (20); 24/7 voice ai receptionist pricing for small businesses (10); affordable multilingual ai receptionist options for small businesses 2025 (10),"What is the best AI receptionist setup for small business?
+How can Iris help small business capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for small business?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+A · Iris Platform,    └ Real Estate,Commercial / Consideration,Phase Two Candidate,/iris/solutions/real-estate/,real estate answering service,1300,0.15,answering service real estate (320); answering service for real estate (260); answering service for real estate investors (210); best ai answering service real estate leads (170); real+estate+answering+service (170); best answering service for real estate investors (140); answering service for real estate agents (110); live answering service real estate (110),"What is the best AI receptionist setup for real estate?
+How can Iris help real estate capture missed calls and inquiries?
+Can Iris handle SMS, scheduling, intake, and follow-up for real estate?
+How is Iris different from a traditional answering service?
+When should a business use Iris vs a custom AI Solutions build?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Content Strategy,Commercial / Consideration,Phase Two Candidate,/growth-services/feel-good/content-strategy/,content strategy services,1900,0.06,security services instagram content strategy 2025 (1000); content marketing strategy services (880); content strategy service (210); tree service seo strategy local pages location-based content (140); tree service seo strategy location pages duplicate content (140); ai content strategy services (110); agency content strategy services for smbs (90); content marketing strategy service (70),"What are content strategy services?
+What is included in dotfun Content Strategy?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Fractional Growth Leadership,Commercial / Consideration,Phase Two Candidate,/growth-services/feel-good/fractional-growth-leadership/,fractional CMO services,1900,0.2,fractional cmo professional services (210); fractional cmo service (210); dental fractional cmo services (170); best fractional cmo services 2026 (140); fractional cmo for financial services (140); b2b fractional cmo services (110); fractional cmo for consumer services (90); fractional cmo services benefits (70),"What are fractional CMO services?
+What is included in dotfun Fractional Growth Leadership?
+How do SEO, AEO, content, paid media, and growth strategy work together?
+How should businesses measure growth services performance?
+When should Growth Services connect into AI Solutions?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Branding Design,Commercial / Consideration,Phase Two Candidate,/growth-services/look-good/branding-design/,brand identity design services,1600,0.04,branding and identity design services (720); brand identity design service (90); brand identity design services pricing (90); branding identity design services (90); brand+identity+design+services (70); brand and identity design services (50); brand identity and design consulting services market (50); brand identity design services pricing 2025 2026 (50),"What are brand identity design services?
+What is included in dotfun Branding Design?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
+C · Growth Services,    └ Graphic Design,Commercial / Consideration,Phase Two Candidate,/growth-services/look-good/graphic-design/,graphic design services,8100,0.06,graphic design services graphic (1900); graphic design service (880); graphic designing services (880); graphic design services near me (720); graphic design and branding services (590); unlimited graphic design services (480); graphics design services (390); online graphic design services (390),"What are graphic design services?
+What is included in dotfun Graphic Design?
+How does design affect conversion and growth?
+What assets are needed before starting a website or creative project?
+How should Look Good services connect to Feel Good growth campaigns?",🟡 P3,Phase Two,Keep in backlog; not required for simple sitemap launch.,"SEMrush phrase_this/fullsearch/related (US), filtered for sitemap relevance"
